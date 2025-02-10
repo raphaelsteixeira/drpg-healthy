@@ -4,13 +4,10 @@
 # Copyright (c) 2020 Oracle, Inc.  All rights reserved.
 # Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
 #
-
 import io
 import json
 
 from fdk import response
-## Raphael
-
 
 def handler(ctx, data: io.BytesIO=None):
     print("Entering Python Hello World handler", flush=True)
